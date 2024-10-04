@@ -1,0 +1,21 @@
+.small-edit-icon {
+    width: 16px; 
+    height: 16px;
+    background-image: url('../assets/edit-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.small-trash-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('../assets/remove-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.small-edit-icon:hover, .small-trash-icon:hover {
+    cursor: pointer;
+}
